@@ -1,12 +1,11 @@
 header{
 background-color: #6d8d22;
-font-size:45px;
+font-size:50px;
 border-width:5px;
 border-color: #4d6417;
 border-radius: 5px;
 padding-left:15px;
-margin-left:auto;
-margin-right:auto;
+text-align:center;
 height: 100px;
 padding-top:20px;
 box-sizing:border-box;
@@ -17,6 +16,9 @@ border-style:solid;
 box-shadow: -20px 0px  #313e0f;
 -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 box-shadow: 1px 2px 3px  rgba(0,0,0,.5);
+font-weight:bold;
+padding:20px;
+    
 
 
 }
@@ -26,11 +28,12 @@ main{
     /* margin-left:auto;
     margin-right:auto; */
     background-color:white;
-    margin-bottom:5vh;
-    margin-top:5vh;
+    margin-bottom:25px;
+    margin-top:25px;
     height:90vh;
     position:fixed;
     left: calc(100%/2 - 400px);
+    border-radius:5px;
 
 }
 
