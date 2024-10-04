@@ -1,13 +1,13 @@
 header{
 background-color: #6d8d22;
-font-size:50px;
+font-size:66px;
 border-width:5px;
 border-color: #4d6417;
 border-radius: 5px;
 padding-left:15px;
 text-align:center;
-height: 100px;
-padding-top:20px;
+height: 200px;
+padding-top:20px;   
 box-sizing:border-box;
 width:100%;
 padding-top: 27.5px;
@@ -18,22 +18,27 @@ box-shadow: -20px 0px  #313e0f;
 box-shadow: 1px 2px 3px  rgba(0,0,0,.5);
 font-weight:bold;
 padding:20px;
+-webkit-text-stroke-color: #273209;
+-webkit-text-stroke-width: 2px;
     
 
 
 }
 
 main{
-    width: 800px;
-    /* margin-left:auto;
-    margin-right:auto; */
-    background-color:white;
+    width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgb(234, 239, 231);
     margin-bottom:25px;
     margin-top:25px;
     height:90vh;
     position:fixed;
-    left: calc(100%/2 - 400px);
+    left: calc(100%/2 - 300px);
     border-radius:5px;
+    overflow-y:scroll;
+    scrollbar-width:none;
+    box-shadow:inset 0px 0px 2px 2px rgb(125, 124, 124)
 
 }
 
@@ -41,4 +46,75 @@ body{
     background-color:#D4DAD6;
     width:100vw;
 
+}
+
+.listfloat{
+    float:left;
+    width:100vw;
+    height:400px;
+    background-color:#c0c9bf;
+    margin-top:75px;
+    border-width: 3px;
+    
+
+
+}
+
+.links{
+    margin-top:15px;
+    margin-left:50px;
+
+}
+.links li{
+    margin-top:10px;
+}
+
+.links a{
+color:darkolivegreen;
+
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+ 
+.logo{ 
+    float:left;
+    min-height:271px;
+}
+nav{ 
+margin-top:20px;
+    background-color: #dee7dd;
+margin-right: 20px;
+margin-left: 225px;
+padding-bottom:5px;
+border-width: 2px;
+border-style:solid;
+border-color:#32400da1
+
+}
+
+.lorem{
+       font-size:20px;
+       max-width:500px;
+       margin-left: auto;
+       margin-right: auto;
+}
+
+.dp{
+    height:300px;
+    width:225px;
+    position:relative;
+    margin-right: calc((100vw/2 - 600px)/2 - 225px/2);
+    margin-top:calc((400px - 300px)/2);
+    border-style:solid;
+    border-color:rgb(97, 128, 41);
+    border-width:4px;
+    float:right;
+}
+
+.dpm{
+    font-size: 1.4em;
+    position:absolute;
+    margin-left: calc((100vw/2 + 600px) - 300px + 25px)
 }
